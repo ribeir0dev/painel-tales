@@ -1,0 +1,152 @@
+body.bg-dark-custom {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.auth-box {
+    background-color: rgba(25, 29, 45, 0.95);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+
+.neon-input {
+    background-color: #2A2E3E;
+    color: #fff;
+    border: 1px solid #3A3E50;
+    border-radius: 8px;
+}
+
+.neon-input:focus {
+    border-color: #5FA8D3;
+    box-shadow: 0 0 8px #5FA8D3;
+    background-color: #2A2E3E;
+}
+
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.toast-error, .toast-success {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.toast-error {
+    background: #ff3e3e;
+    color: white;
+}
+
+.toast-success {
+    background: #3ed17f;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.dashboard-dark {
+    background: linear-gradient(180deg, #0f111a, #1b1f2b);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #161a2b;
+    border-right: 1px solid #292d45;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .nav-link {
+    color: #b0b3c5;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background: linear-gradient(90deg, #212740, #212740);
+    color: white;
+}
+
+.panel-glass {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+}
+
+.card {
+    background-color: #212740!important;
+    color: white!important;
+}
+
+.card-destaque {
+    background-color: #9eb6ff25!important;
+    color: white!important;
+}
+
+
+.text-topo{
+    color: white!important;
+}
+
+.neon-btn {
+    background: linear-gradient(45deg, #194367, #3590dc, #194367)!important;
+    color: white!important;
+    border:none!important;
+    border-radius: 6px!important;
+    padding: 6px 12px!important;
+    font-size: 0.9rem!important;
+    transition: background 0.6s ease-in-out, transform 0.3s ease!important;
+    background-size: 200% 100%!important;
+    background-position: left center!important;
+}
+
+.neon-btn:hover {
+    background-position: right center!important;
+    transform: scale(1.03)!important;
+    color: white!important;
+}
+
+.badge-bg{
+    background-color: #b1bace20;
+}
+
+.text-green{
+    color: #b1bace!important;
+}
+
+
+
+.no-change-input {
+    padding: 10px 10px;
+    background-color: #2A2E3E;
+    color: #fff;
+    border-radius: 8px;
+}
